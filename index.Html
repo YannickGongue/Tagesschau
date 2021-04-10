@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text-html" charset="utf-8">
+    <meta name ="viewport" content="width=device-width, initial-scale-1">
+    <title>Salzgitter Tagesschau</title>
+
+    <style type="text/css">
+      body{
+        margin: 0px;
+        font-family: Thesis,arial,helvetic,sans-serif;
+        font-weight: inherit;
+        font-style: inherit;
+        font-size:100.01%;
+        background-image:url("https://www.tagesschau.de/infoscreen/img/background-16-9-HD.png");
+      }
+     #container{
+     }
+     #mittleiste{
+       float: left;
+       background-color:black	;
+       width:100%;
+       height: 30px;
+     }
+
+     #mittleiste li{
+       color:white;
+       list-style: none;
+       float:left;
+     }
+
+     #topleiste{
+       float: left;
+       background-color: #09336A;
+       width:100%;
+       margin-top: -6px;
+     }
+     #topleiste ul{
+
+     }
+
+     #topleiste li{
+       list-style: none;
+       float: left;
+       border-bottom:1px #7FA5CC solid;
+     }
+
+     .festebreite{
+      width:1050px;
+      margin:0 auto;
+     }
+
+     a:link{
+       color:white;
+       text-decoration:none;
+       padding:10px 7px 1px 5px;
+       font-size:16px;
+     }
+
+     a:hover{
+       color:black;
+       background-color:white;
+       text-decoration:none;
+     }
+     .toplink{
+
+     }
+
+     .toplinkrecht{
+       font-weight:bold;
+     }
+
+     #ardlogo{
+       padding:0px;
+       margin:-17px 0px 0px 0px;
+       width:60px;
+       height:35px;
+       content:url(https://www.ard.de/image/55056/16x9/4789276565946206969/1280);
+     }
+
+     #Ardbild{
+       width:200px;
+       height:50px;
+       content:url(https://www.tagesschau.de/resources/framework/img/ts_printlogo.png);
+     }
+
+     #Suchfeld{
+       float: right;
+       margin-top:-40px;
+       margin-right:40px;
+       height:50px;
+     }
+
+     #Suchfeld input{
+       height:20px;
+       background-image:url("img/google-web-search_v3.png");
+       background-repeat:no-repeat;
+       background-position:right;
+       float: left;
+     }
+
+     .mittlink{
+     background-image:url("img/dreieck.png");
+     background-repeat: no-repeat;
+     background-position: right;
+     padding-right:20px;
+     margin-top: -6px;
+   }
+
+   #bilderBox{
+     background-color: white;
+     margin-top: 50px;
+   }
+   .bilderabstand{
+     margin:5px;
+   }
+
+   .bildundtext{
+     float:left;
+     overflow:auto;
+
+   }
+   .bildtext{
+     float: bottom;
+
+   }
+   .fetttext{
+     font-weight: bold;
+   }
+
+   .großebox{
+     margin-top: 15px;
+     border: 5px white solid;
+   }
+   .clearing{
+     clear: both;
+   }
+    </style>
+
+  </head>
+  <body>
+    <div id="container">
+      <div id="topleiste">
+        <div class="festebreite">
+        <ul id="topleistenliste">
+          <li class="toplink"><a href="#">ARD Home</a> </li>
+          <li class="toplink"><a href="#">Nachrichten</a> </li>
+          <li class="toplink"><a href="#">Sport</a> </li>
+          <li class="toplink"><a href="#">Börse</a> </li>
+          <li class="toplink"><a href="#">Ratgeber</a> </li>
+          <li class="toplink"><a href="#">Wissen</a> </li>
+          <li class="toplink"><a href="#">Kultur</a> </li>
+          <li class="toplink"><a href="#">Kinder</a> </li>
+          <li class="toplink"><a href="#">ARD intern</a> </li>
+          <li class="toplink"><a href="#">Fernsehen</a> </li>
+          <li class="toplink toplinkrecht"><a href="#">Radio</a> </li>
+          <li class="toplink toplinkrecht"><a href="#">ARD Mediatech</a> </li>
+          <li id="ardlogo"></li>
+        </ul>
+        </div>
+      </div>
+    </div>
+    <div class="festebreite">
+      <div id="Ardbild">
+      </div>
+      <div id="Suchfeld">
+        <input type="text" name="" value="" placeholder="Suche in Tagesschau.de">
+      </div>
+    </div>
+    <div class="festebreite">
+      <div id="mittleiste">
+      <ul id="mittleistenliste">
+        <li class="mittlink"><a href="#">Startseite</a> </li>
+        <li class="mittlink"><a href="#">Videos & Audios</a> </li>
+        <li class="mittlink"><a href="#">Inland</a> </li>
+        <li class="mittlink"><a href="#">Ausland</a> </li>
+        <li class="mittlink"><a href="#">wirtschaft</a> </li>
+        <li class="mittlink"><a href="#">Wahlarchiv</a> </li>
+        <li class="mittlink"><a href="#">Wetter</a> </li>
+        <li class="mittlink"><a href="#">Ihre Meinung</a> </li>
+        <li class="mittlink"><a href="#">Mehr</a> </li>
+      </ul>
+      </div>
+    </div>
+    <div class="festebreite">
+      <div id="bilderBox">
+          <div class="bildundtext">
+            <image src="img/bild1.jpg" width="250" height="150" class="bilderabstand">
+              <p class="bildtext">Ab 17:50 Uhr im Liveteam </p>
+              <p class="fetttext">Tagesschau</p>
+          </div>
+          <div class="bildundtext">
+            <image src="img/bild2.jpg" width="250" height="150" class="bilderabstand">
+              <p class="bildtext">Ab 17:50 Uhr im Liveteam </p>
+              <p class="fetttext">Tagesschau</p>
+          </div>
+          <div class="bildundtext">
+            <image src="img/bild3.jpg" width="250" height="150" class="bilderabstand">
+              <p class="bildtext">Ab 17:50 Uhr im Liveteam </p>
+              <p class="fetttext">Tagesschau</p>
+          </div>
+          <div class="bildundtext">
+            <image src="img/bild4.jpg" width="250" height="150" class="bilderabstand">
+              <p class="bildtext">Ab 17:50 Uhr im Liveteam </p>
+              <p class="fetttext">Tagesschau</p>
+          </div>
+             <div class="clearing">
+             </div>
+        </div>
+        <div id="großebox">
+          <image src="img/bild5.jpg" width="1045" height="500" class="großebox">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
